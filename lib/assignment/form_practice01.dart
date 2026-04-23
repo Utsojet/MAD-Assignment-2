@@ -9,7 +9,7 @@ class FormPractice01App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Form Practice 01',
       theme: ThemeData(
-        primarySwatch: Colors.indigo,
+        primarySwatch: Colors.teal,
       ),
       home: const FormPractice01Page(),
     );
@@ -71,6 +71,7 @@ class _FormPractice01PageState extends State<FormPractice01Page> {
       );
     }
   }
+  // build textfield
 
   Widget buildTextField({
     required TextEditingController controller,
@@ -147,7 +148,7 @@ class _FormPractice01PageState extends State<FormPractice01Page> {
       appBar: AppBar(
         title: const Text('Form Practice-01'),
         centerTitle: true,
-        backgroundColor: Colors.indigo,
+        backgroundColor: Colors.teal,
         foregroundColor: Colors.white,
       ),
       body: SafeArea(
@@ -179,7 +180,7 @@ class _FormPractice01PageState extends State<FormPractice01Page> {
                         style: TextStyle(
                           fontSize: 22,
                           fontWeight: FontWeight.bold,
-                          color: Colors.indigo,
+                          color: Colors.teal,
                         ),
                       ),
                       const SizedBox(height: 20),
